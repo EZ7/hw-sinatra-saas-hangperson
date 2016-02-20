@@ -72,9 +72,3 @@ class HangpersonGame
 
 end
 
-@game = HangpersonGame.new('foobar')
-@game.guess('a')
-@game.guess('z')
-@game.guess('x')
-@game.guess('o')
-puts @game.word_with_guesses
