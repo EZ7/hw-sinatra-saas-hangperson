@@ -522,7 +522,7 @@ operations are possible on them.**
 
 In our case, we can think of the game itself as the underlying
 resource.  Doing so results in some important design decisions about how
-routes (URLs) will map to actions and about the game code itself.  
+routes (URLs) will map to actions and about the game code itself.
 Since we've already identified the game state and player actions that
 could change it, it makes sense to define the game itself as a class.
 An instance of that class is a game, and represents the resource being
