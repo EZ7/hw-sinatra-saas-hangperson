@@ -721,7 +721,7 @@ Part 3: Connecting HangpersonGame to Sinatra
 ============================================
 
 You've already met Sinatra.  Here's what's new in the Sinatra app
-skeleton `app.rb` that we provide for Hangperson:
+skeleton `app.rb` that we provide rson:
 
 * `before do...end` is a block of code executed *before* every SaaS
 request
@@ -801,7 +801,7 @@ full URL you need to visit in order to visit the New Game page?
 > The Ruby code `get '/new' do...` in `app.rb` renders the New Game
 > page, so the full URL is in the form `http://your-workspace-name.c9.io/new`.
 
-Visit this URL and verify that the Start New Game page appears. 
+Visit this URL and verify that the Start New Game page appears.
 
 * Self-check: where is the HTML code for this page?
 
@@ -961,7 +961,7 @@ For this scenario, in `features/guess.feature`, we've already provided a
 correct 
 `show.erb` HTML file that submits the player's guess to the `guess`
 action.  You already have a `HangpersonGame#guess` instance method that
-has the needed functionality.  
+has the needed functionality. 
 
 * Self-check: In `game_steps.rb`, look at the code for "I start a new
 game..." step, and in particular the `stub_request` command.  Given the
